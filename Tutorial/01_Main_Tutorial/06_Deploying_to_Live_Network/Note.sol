@@ -2,8 +2,11 @@
 pragma solidity >=0.6.0 <0.9.0;
 
 /*
-    => In hardhat we can debug solidity code
-    => for that we have to import hardhat console.log into solidity file 'contracts/Token.sol'
-    => so, after adding console.log() while testing it we will be able to see those console log statement
-        => npx hardhat test
+ *) Deploying using hardhat
+    -> we will create file 'scripts/deploy.js'
+    -> after writing script to deploy smart contract we will run this:
+        -> npx hardhat run scripts/deploy.js
+    *) Deploying contract on test network
+        -> We will deploy to Goerli Test Network
+        -> npx hardhat run scripts/deploy.js --network goerli
  */
