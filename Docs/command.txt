@@ -1,0 +1,1 @@
+-> npx hardhat node (to see all the blockchain node available for local environment)
