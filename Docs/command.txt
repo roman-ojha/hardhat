@@ -1,1 +1,14 @@
 -> npx hardhat node (to see all the blockchain node available for local environment)
+
+
+*) Console:
+    -> npx hardhat console --network localhost (to open interactive javascript environment to interact with smart contract on blockchain)
+
+    -> to get the contract instance:
+        -> const contractArtifact = await artifacts.readArtifact("<contract_name>");
+        -> const contract = new ethers.Contract("<contract_address>", contractArtifact.abi, ethers.provider);
+        -> OR:
+        -> let contract = await ethers.getContractAt("NFT","<contract_address>");
+    
+    -> to call the contract function:
+        -> const <return_function_name> = contract.<function_name>(<arguments>);
