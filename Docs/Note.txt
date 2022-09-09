@@ -1,6 +1,9 @@
 *) Connect Hardhat account to Metamask
     -> create New network:
-    -> Network Name: Hardhat Node
-    -> New RPC Url: http://127.0.0.1:8545
-    -> Chain ID: 31337
-    -> Currency Symbol: Go
+        -> Network Name: Hardhat Node
+        -> New RPC Url: http://127.0.0.1:8545
+        -> Chain ID: 31337
+        -> Currency Symbol: Go
+    -> copy private key from account of running hardhat node
+    -> then import account on metamask and then paste private key
+    -> create multiple account that much you want for the development purposes
