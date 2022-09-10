@@ -18,4 +18,10 @@ module.exports = {
       accounts: [`${GOERLI_PRIVATE_KEY}`],
     },
   },
+  paths: {
+    // artifacts: "./src/backend/artifacts",
+    // sources: "./src/backend/contracts",
+    // cache: "./src/backend/cache",
+    // tests: "./src/backend/test",
+  },
 };

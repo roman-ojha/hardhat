@@ -1,6 +1,7 @@
--> npx hardhat node (to see all the blockchain node available for local environment)
-
-
+-> npx hardhat node (run local blockchain environment)
+-> npx hardhat compile (compile smart contract)
+-> npx hardhat test (test smart contract)
+-> npx hardhat run scripts/deploy.js --network goerli (deploy smart contract by specifying the network)
 *) Console:
     -> npx hardhat console --network localhost (to open interactive javascript environment to interact with smart contract on blockchain)
 
