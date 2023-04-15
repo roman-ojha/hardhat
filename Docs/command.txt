@@ -2,3 +2,4 @@
 -> npx hardhat compile (compile smart contract)
 -> npx hardhat test (test smart contract)
 -> npx hardhat run scripts/deploy.js --network goerli (deploy smart contract by specifying the network)
+-> npx hardhat run scripts/deploy.js --network localhost (deploy smart contract in localhost hardhat network)
